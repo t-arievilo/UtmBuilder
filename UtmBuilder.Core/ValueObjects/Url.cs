@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Text;
+using System.Text.RegularExpressions;
 
 namespace UtmBuilder.Core.ValueObjects;
 
@@ -12,4 +13,5 @@ public class Url : ValueObjects
     
     
     public string Address { get; }
+    
 }
