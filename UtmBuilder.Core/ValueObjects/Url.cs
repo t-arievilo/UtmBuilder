@@ -10,7 +10,7 @@ public class Url : ValueObjects
     {
         Address = address;
         if(Regex.IsMatch(Address, UrlRegexPattern))
-            throw new Exception("Teste");
+            throw new InvalidUrlException();
     }
     
     
